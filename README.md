@@ -80,8 +80,7 @@ $ npm install --save-dev lite-server
 $ npm start
 `
 
-### install and start
-**(For run the examples)**
+### install and start (run the examples)
 `sh
 $ tsc *.ts
 $ npm install
