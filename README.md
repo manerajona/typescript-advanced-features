@@ -81,11 +81,11 @@ $ npm start
 `
 
 ### install and start (run the examples)
-`sh
+```sh
 $ tsc *.ts
 $ npm install
 $ npm start
-`
+```
 
 ### Enjoy
 Open in the browser *http://localhost:3000/*
