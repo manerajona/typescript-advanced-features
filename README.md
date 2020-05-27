@@ -1,58 +1,58 @@
 # Typescript
 
 ## Install on linux
-`sh
-sudo npm install -g typescript
-`
+```sh
+$ sudo npm install -g typescript
+```
 ## Install NVM (Recomended)
 
-`sh
+```sh
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-`
+```
 #### OR
-`sh
+```sh
 $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-`
+```
 ### Add path...
-`sh
+```sh
 $ sudo nano ~/.bashrc
-`
+```
 #### ...to the final of the file.
 ```sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
-`sh
+```sh
 $ source ~/.bashrc
-`
+```
 ### List node versions
-`sh
+```sh
 $ nvm ls
-`
+```
 ### Use last LTS
-`sh
+```sh
 $ nvm use lst/*
-`
+```
 ### See current
-`sh
+```sh
 $ nvm current
-`
+```
 
 ## Compile TS -> JS
-`sh
+```sh
 $ tsc app.ts
-`
+```
 
 ## Generate package.json
-`sh
+```sh
 $ npm init
-`
+```
 
-## Use lite-server
-`sh
+## Install lite-server
+```sh
 $ npm install --save-dev lite-server
-`
+```
 
 ### Set "start" on package.json
 **(Something like that)**
@@ -76,17 +76,16 @@ $ npm install --save-dev lite-server
 ```
 
 ### start
-`sh
+```sh
 $ npm start
-`
+```
 
-### install and start
-**(For run the examples)**
-`sh
+### install and start (run the examples)
+```sh
 $ tsc *.ts
 $ npm install
 $ npm start
-`
+```
 
 ### Enjoy
 Open in the browser *http://localhost:3000/*
