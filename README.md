@@ -2,7 +2,7 @@
 
 ## Install on linux
 ```sh
-sudo npm install -g typescript
+$ sudo npm install -g typescript
 ```
 ## Install NVM (Recomended)
 
