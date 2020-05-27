@@ -79,5 +79,14 @@ $ npm install --save-dev lite-server
 `sh
 $ npm start
 `
+
+### install and start
+**(For run the examples)**
+`sh
+$ tsc *.ts
+$ npm install
+$ npm start
+`
+
 ### Enjoy
 Open in the browser *http://localhost:3000/*
