@@ -12,9 +12,9 @@ const number1 = 11
 const number2 = 4.9
 
 // Primitive string
-const str1 = 'single quotes '
-const str2 = " double quotes "
-const str3 = ` back quotes`
+const str1 = 'single quotes'
+const str2 = "double quotes"
+const str3 = `back quotes`
 
 // boolean
 const printstring = true
