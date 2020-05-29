@@ -7,7 +7,7 @@ $ sudo npm install -g typescript@latest
 
 ## TS commands
 
-### Compile
+### Compile (TS->JS)
 ```sh
 $ tsc *.ts
 ```
@@ -19,46 +19,6 @@ $ tsc *.ts --watch
 ### Create tsconfig.json
 ```sh
 $ tsc --init
-```
-
-## Install NVM (Recomended)
-
-```sh
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-```
-#### OR
-```sh
-$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-```
-### Add path...
-```sh
-$ sudo nano ~/.bashrc
-```
-#### ...to the final of the file.
-```sh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-```
-```sh
-$ source ~/.bashrc
-```
-### List node versions
-```sh
-$ nvm ls
-```
-### Use last LTS
-```sh
-$ nvm use lst/*
-```
-### See current
-```sh
-$ nvm current
-```
-
-## Compile TS -> JS
-```sh
-$ tsc app.ts
 ```
 
 ## Generate package.json
@@ -106,3 +66,38 @@ $ npm start
 
 ### Enjoy
 Open in the browser *http://localhost:3000/*
+
+## Install NVM (Recomended)
+
+```sh
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+#### OR
+```sh
+$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+### Add path...
+```sh
+$ sudo nano ~/.bashrc
+```
+#### ...to the final of the file.
+```sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+```sh
+$ source ~/.bashrc
+```
+### List node versions
+```sh
+$ nvm ls
+```
+### Use last LTS
+```sh
+$ nvm use lst/*
+```
+### See current
+```sh
+$ nvm current
+```
