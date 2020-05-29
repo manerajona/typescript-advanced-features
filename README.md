@@ -1,9 +1,26 @@
 # Typescript
 
-## Install on linux
+## Install Ts on linux
 ```sh
-$ sudo npm install -g typescript
+$ sudo npm install -g typescript@latest
 ```
+
+## TS commands
+
+### Compile
+```sh
+$ tsc *.ts
+```
+### Whatch mode
+```sh
+$ tsc *.ts --watch
+```
+
+### Create tsconfig.json
+```sh
+$ tsc --init
+```
+
 ## Install NVM (Recomended)
 
 ```sh
