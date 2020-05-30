@@ -29,5 +29,5 @@ function combine(
 }
 
 console.log(combine(30, 26, resultConversion.AsNumber))
-
 console.log(combine('Mary', 'Jane', resultConversion.AsString))
+
