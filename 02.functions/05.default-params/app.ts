@@ -4,4 +4,4 @@ function generateError(message: string = 'Error', code: number = 1): never {
   }
 }
 
-let error = generateError() // default error
+generateError() // default error
