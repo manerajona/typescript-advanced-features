@@ -22,5 +22,4 @@ addAndPrint((result:number)=>{console.log('result='+result)} , add, 2, 3)
 
 addAndPrint(
   (result:number)=>{console.log('result='+result)}, 
-  (a: number, b: number) => a*b, 
-  4 , 5)
+  (a: number, b: number) => a*b, 4 , 5)
