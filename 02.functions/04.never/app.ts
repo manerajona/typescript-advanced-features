@@ -4,5 +4,5 @@ function generateError(message: string, code: number): never {
   }
 }
 
-let servererror = generateError('Internal server error', 500) // never returns anything
-console.log(servererror) 
+let serverError = generateError('Internal server error', 500) // never returns anything
+console.log(serverError) 
