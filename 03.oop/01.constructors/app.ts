@@ -3,7 +3,7 @@ class Department {
     // Attributes
     name: string
     location: string
-    director: string = ''
+    director?: string // Adding ? make it optional
 
     // Object constructor
     constructor(name: string, loc: string){
