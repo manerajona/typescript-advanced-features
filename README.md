@@ -70,7 +70,7 @@ $ npm start
 ### Enjoy
 Open in the browser *http://localhost:3000/*
 
-## Install NVM (Recomended)
+## Install NVM (Optional)
 
 ```sh
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
