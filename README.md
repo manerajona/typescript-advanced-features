@@ -7,7 +7,7 @@ $ sudo npm install -g typescript@latest
 
 ## TS commands
 
-### Compile (TS->JS)
+### Compile ts file (TS->JS)
 ```sh
 $ tsc *.ts
 ```
@@ -15,10 +15,13 @@ $ tsc *.ts
 ```sh
 $ tsc *.ts --watch
 ```
-
 ### Create tsconfig.json
 ```sh
 $ tsc --init
+```
+### Compile entire project
+```sh
+$ tsc
 ```
 
 ## Generate package.json
